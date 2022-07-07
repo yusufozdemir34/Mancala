@@ -1,0 +1,32 @@
+<databaseChangeLog
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext
+   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd 
+   http://www.liquibase.org/xml/ns/dbchangelog 
+   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+	<changeSet author="mancalaak" id="ozdemir">
+		<!-- <loadData catalogName="Mancala" encoding="UTF-8" -->
+		<!-- file="com/example/member_profile.csv" quotchar="'" -->
+		<!-- schemaName="tac_authorization" separator="," tableName="player"> -->
+		<!-- <column name="id" type="number(11,0)" /> -->
+		<!-- <column name="description" type="varchar(255)" /> -->
+		<!-- <column name="name" type="varchar(100)" /> -->
+		<!-- <column name="status" type="varchar(10)" defaultValue="A" /> -->
+		<!-- </loadData> -->
+		<!-- <sqlFile dbms="H2" encoding="utf8" endDelimiter=";" -->
+		<!-- path="com/yozdemir/example/initial_sample.sql" -->
+		<!-- relativeToChangelogFile="true" splitStatements="true" -->
+		<!-- stripComments="true" /> -->
+<!-- 		<insert tableName="player"> -->
+<!-- 			<column name="id" value="1" /> -->
+<!-- 			<column name="board" value="14" /> -->
+<!-- 			<column name="name" value="Player 1" /> -->
+<!-- 			<column name="collectionpit" value="6" /> -->
+<!-- 			<column name="skippit" value="13" /> -->
+<!-- 		</insert> -->
+	</changeSet>
+
+</databaseChangeLog>
